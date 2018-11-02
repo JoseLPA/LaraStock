@@ -13,3 +13,27 @@ npm-debug.log
 yarn-error.log
 .env
 .phpunit.result.cache
+### Laravel ###
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
